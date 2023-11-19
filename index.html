@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Duper Mystery Solving System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="container">
+    <div id="mystery-form">
+      <h1>Super Duper <br>Mystery Solving System</h1>
+      <p>Insert here the information of your main suspect to check if it's guilty or not.</p>
+      <label for="who">Who:</label>
+      <input type="text" id="who" placeholder="Write a name">
+      <p class="error-message" id="who-error"></p>
+      <label for="how">How:</label>
+      <input type="text" id="how" placeholder="Write an object">
+      <p class="error-message" id="how-error"></p>
+      <label for="why">Why:</label>
+      <input type="text" id="why" placeholder="Write a reason">
+      <p class="error-message" id="why-error"></p>
+      <button onclick="solveMystery()">Solve the Mystery</button>
+    </div>
+
+    <div id="congratulations" class="hidden">
+      <p>Congratulations detectives!</p>
+      <p>You solved the mystery. <br> The killer is Richard!!</p>
+    </div>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>

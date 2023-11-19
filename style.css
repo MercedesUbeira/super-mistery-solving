@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://img.freepik.com/premium-photo/cinematic-shot-detective-standing-dimly-lit-alleyway-with-single-streetlight-casting_891336-39141.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699228800&semt=ais') fixed;
+    background-size: cover;
+    background-position: center;
+ }
+  
+  #container {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  #mystery-form, #congratulations {
+    background-color: #d6d6d6e8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  input.correct {
+    background-color: #eee;
+    color: #555;
+    border-color: #eee;
+  }
+  
+  input.error {
+    border-color: #ff6b6b;
+  }
+  
+  .error-message {
+    color: #ff6b6b;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  #congratulations {
+    display: none;
+    text-align: center;
+    color: #333;
+  }
+  
