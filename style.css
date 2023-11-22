@@ -81,4 +81,11 @@ body {
     text-align: center;
     color: #333;
   }
+
+  img {
+    height: 180px;
+    width: auto;
+    border-radius: 90px;
+
+  }
   
